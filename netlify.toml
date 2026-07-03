@@ -1,0 +1,10 @@
+# Netlify build settings (used automatically if you deploy via Git on Netlify)
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+# Single-page app: always serve index.html (safe even for this anchor-based site)
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
