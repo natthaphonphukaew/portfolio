@@ -1,5 +1,5 @@
 import { useMemo, useState } from 'react'
-import { motion, AnimatePresence, LayoutGroup } from 'framer-motion'
+import { motion, LayoutGroup } from 'framer-motion'
 import { FolderGit2 } from 'lucide-react'
 import { works, yearFilters } from '../data/works'
 import WorkCard from './WorkCard'
@@ -59,14 +59,14 @@ export default function Works() {
           </LayoutGroup>
         </div>
 
-        {/* Grid */}
-        <motion.div layout className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-          <AnimatePresence mode="popLayout">
-            {filtered.map((w, i) => (
-              <WorkCard key={w.slug} work={w} index={i} onOpen={setActive} />
-            ))}
-          </AnimatePresence>
-        </motion.div>
+        {/* Grid — no AnimatePresence here on purpose: with mode="popLayout" and no
+            exit variant, filtered-out cards never unmount and the filter silently
+            stops working. A plain list keeps the entrance animation and filters correctly. */}
+        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+          {filtered.map((w, i) => (
+            <WorkCard key={w.slug} work={w} index={i} onOpen={setActive} />
+          ))}
+        </div>
       </div>
 
       <WorkModal work={active} onClose={() => setActive(null)} />

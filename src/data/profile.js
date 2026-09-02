@@ -12,9 +12,12 @@ export const profile = {
     degree: 'B.Sc. Digital Service Innovation',
     school: 'School of Information Technology (SIT)',
     university: 'King Mongkut’s University of Technology Thonburi (KMUTT)',
-    year: 'Entering 3rd year',
+    year: '3rd year',
     gpax: '3.76',
   },
+
+  // Shown on the hero portrait badge
+  current: { label: 'Currently', value: 'Business Analyst · NITMX Bootcamp' },
 
   // Expanded & analysed from the body of work below
   about: [

@@ -72,9 +72,9 @@ export default function Hero() {
               <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent" />
             </div>
             <div className="absolute -bottom-4 -right-3 rounded-2xl border border-zinc-200 bg-white px-4 py-3 shadow-lg dark:border-zinc-700 dark:bg-zinc-900">
-              <p className="text-xs text-zinc-500 dark:text-zinc-400">Currently</p>
+              <p className="text-xs text-zinc-500 dark:text-zinc-400">{profile.current.label}</p>
               <p className="text-sm font-semibold text-accent-600 dark:text-accent-400">
-                Product Lead · Cosaki
+                {profile.current.value}
               </p>
             </div>
           </div>
