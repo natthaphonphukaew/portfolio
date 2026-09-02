@@ -240,9 +240,9 @@ export const works = [
       'Relevance feedback (👍/👎) re-ranks signals per viewer',
     ],
     links: [
-      // TODO: replace with the deployed URL and your GitHub repo
+      // TODO: replace with the Vercel URL once Signal Radar is deployed
       { label: 'Live Demo', url: 'https://example.com' },
-      { label: 'GitHub', url: 'https://github.com/' },
+      { label: 'GitHub', url: 'https://github.com/natthaphonphukaew/signal-radar' },
     ],
     gallery: [
       { src: '/works/signal-radar/cover.svg', caption: 'Signal Radar — automated trend intelligence for Thailand' },
