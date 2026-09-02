@@ -241,7 +241,7 @@ export const works = [
     ],
     links: [
       // TODO: replace with the Vercel URL once Signal Radar is deployed
-      { label: 'Live Demo', url: 'https://example.com' },
+      { label: 'Live Demo', url: 'https://signal-radar-six-pi.vercel.app/' },
       { label: 'GitHub', url: 'https://github.com/natthaphonphukaew/signal-radar' },
     ],
     gallery: [
