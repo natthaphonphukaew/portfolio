@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" width="1600" height="1000" role="img" aria-label="Signal Radar — AI trend-signal dashboard">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0d1512"/>
+      <stop offset="55%" stop-color="#0a0a0a"/>
+      <stop offset="100%" stop-color="#06120e"/>
+    </linearGradient>
+    <linearGradient id="em" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#34d399"/>
+      <stop offset="100%" stop-color="#10b981"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#10b981" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#10b981" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dots" width="34" height="34" patternUnits="userSpaceOnUse">
+      <circle cx="1.6" cy="1.6" r="1.6" fill="#10b981" opacity="0.16"/>
+    </pattern>
+  </defs>
+
+  <rect width="1600" height="1000" fill="url(#bg)"/>
+  <rect width="1600" height="1000" fill="url(#dots)"/>
+  <circle cx="1180" cy="500" r="430" fill="url(#glow)"/>
+
+  <!-- Radar -->
+  <g transform="translate(1180,500)" fill="none" stroke="#10b981">
+    <circle r="90"  stroke-opacity="0.75" stroke-width="3"/>
+    <circle r="170" stroke-opacity="0.45" stroke-width="3"/>
+    <circle r="250" stroke-opacity="0.28" stroke-width="3"/>
+    <circle r="330" stroke-opacity="0.16" stroke-width="3"/>
+    <line x1="-330" y1="0" x2="330" y2="0" stroke-opacity="0.14" stroke-width="2"/>
+    <line x1="0" y1="-330" x2="0" y2="330" stroke-opacity="0.14" stroke-width="2"/>
+    <path d="M0 0 L232 -232 A328 328 0 0 1 328 0 Z" fill="#10b981" fill-opacity="0.14" stroke="none"/>
+    <!-- signal blips -->
+    <circle cx="120"  cy="-96"  r="13" fill="#34d399" stroke="none"/>
+    <circle cx="-158" cy="72"   r="10" fill="#f59e0b" stroke="none"/>
+    <circle cx="66"   cy="196"  r="10" fill="#ec4899" stroke="none"/>
+    <circle cx="-96"  cy="-206" r="9"  fill="#3b82f6" stroke="none"/>
+    <circle cx="250"  cy="118"  r="8"  fill="#a855f7" stroke="none"/>
+  </g>
+
+  <!-- Text -->
+  <g font-family="Inter, system-ui, sans-serif">
+    <text x="110" y="330" fill="#34d399" font-size="30" font-weight="700" letter-spacing="7">THAILAND TREND INTELLIGENCE</text>
+    <text x="110" y="452" fill="#ffffff" font-size="118" font-weight="900" letter-spacing="-3">Signal</text>
+    <text x="110" y="576" fill="url(#em)" font-size="118" font-weight="900" letter-spacing="-3">Radar</text>
+    <text x="110" y="664" fill="#a1a1aa" font-size="34" font-weight="500">RSS → Gemini → signals, every 6 hours</text>
+
+    <!-- category chips -->
+    <g font-size="24" font-weight="700">
+      <rect x="110" y="712" width="168" height="52" rx="26" fill="#f59e0b" fill-opacity="0.16"/>
+      <text x="194" y="746" fill="#f59e0b" text-anchor="middle">Economic</text>
+      <rect x="294" y="712" width="162" height="52" rx="26" fill="#10b981" fill-opacity="0.16"/>
+      <text x="375" y="746" fill="#10b981" text-anchor="middle">Business</text>
+      <rect x="472" y="712" width="158" height="52" rx="26" fill="#3b82f6" fill-opacity="0.16"/>
+      <text x="551" y="746" fill="#3b82f6" text-anchor="middle">Industry</text>
+      <rect x="646" y="712" width="176" height="52" rx="26" fill="#ec4899" fill-opacity="0.16"/>
+      <text x="734" y="746" fill="#ec4899" text-anchor="middle">Consumer</text>
+      <rect x="838" y="712" width="126" height="52" rx="26" fill="#a855f7" fill-opacity="0.16"/>
+      <text x="901" y="746" fill="#a855f7" text-anchor="middle">Social</text>
+    </g>
+
+    <text x="110" y="856" fill="#52525b" font-size="26" font-weight="500">Automated pipeline · GitHub Actions · zero backend</text>
+  </g>
+</svg>

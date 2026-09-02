@@ -214,6 +214,40 @@ export const works = [
       { src: '/works/cosaki/g1.png', caption: 'App — home, filter & sort, product detail' },
     ],
   },
+
+  {
+    slug: 'signal-radar',
+    title: 'Signal Radar',
+    subtitle: 'Personal Project · AI & Automation',
+    year: 2,
+    yearLabel: '2026',
+    type: 'Personal Project',
+    role: 'Solo — Automation & AI',
+    team: 'Solo build',
+    award: null,
+    cover: '/works/signal-radar/cover.svg',
+    tags: ['Gemini AI', 'Data Pipeline', 'GitHub Actions', 'Dashboard', 'Data Analysis', 'React'],
+    description: [
+      'Scanning the market by hand is slow and repetitive — exactly the kind of recurring workflow that should be automated. Signal Radar is an AI-enabled dashboard that surfaces strategic signals across Thailand’s economic, business, industry, consumer and social trends, and it runs entirely on its own.',
+      'Every six hours a GitHub Actions job collects articles from ten public RSS feeds, deduplicates them, and sends the batch to Gemini using structured-output mode. The model clusters related articles into distinct signals — each with an impact score, a confidence level, a time horizon, and a one-line “So what?” for a strategy team. The validated result is published as a static JSON file the dashboard reads, so there is no backend and no exposed API key.',
+      'I designed it to fail safely: the model references article IDs rather than URLs, so it cannot invent a source, and if any step fails the run exits without overwriting the last good data.',
+    ],
+    highlights: [
+      'Fully automated pipeline — collect, analyse and publish every 6 hours',
+      'Gemini structured output clusters ~70 articles into ranked signals',
+      'Sources cannot be hallucinated: the model cites article IDs, not URLs',
+      'Zero backend and zero hosting cost; the API key never leaves CI',
+      'Relevance feedback (👍/👎) re-ranks signals per viewer',
+    ],
+    links: [
+      // TODO: replace with the deployed URL and your GitHub repo
+      { label: 'Live Demo', url: 'https://example.com' },
+      { label: 'GitHub', url: 'https://github.com/' },
+    ],
+    gallery: [
+      { src: '/works/signal-radar/cover.svg', caption: 'Signal Radar — automated trend intelligence for Thailand' },
+    ],
+  },
 ]
 
 export const yearFilters = [

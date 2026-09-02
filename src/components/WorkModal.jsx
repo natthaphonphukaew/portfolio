@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import { createPortal } from 'react-dom'
 import { motion, AnimatePresence } from 'framer-motion'
-import { X, Award, Users, BadgeCheck, FileText, CheckCircle2 } from 'lucide-react'
+import { X, Award, Users, BadgeCheck, FileText, CheckCircle2, ExternalLink } from 'lucide-react'
 import Lightbox from './Lightbox'
 
 export default function WorkModal({ work, onClose }) {
@@ -112,11 +112,26 @@ export default function WorkModal({ work, onClose }) {
                 ))}
               </div>
 
-              {/* Report / doc link */}
-              {work.docUrl && (
-                <a href={work.docUrl} target="_blank" rel="noopener noreferrer" className="btn-primary mt-6">
-                  <FileText size={16} /> {work.docLabel || 'View Report'}
-                </a>
+              {/* Report / doc link + any external links (live demo, repo, …) */}
+              {(work.docUrl || work.links?.length > 0) && (
+                <div className="mt-6 flex flex-wrap gap-3">
+                  {work.docUrl && (
+                    <a href={work.docUrl} target="_blank" rel="noopener noreferrer" className="btn-primary">
+                      <FileText size={16} /> {work.docLabel || 'View Report'}
+                    </a>
+                  )}
+                  {work.links?.map((l, i) => (
+                    <a
+                      key={l.url}
+                      href={l.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className={i === 0 && !work.docUrl ? 'btn-primary' : 'btn-ghost'}
+                    >
+                      <ExternalLink size={16} /> {l.label}
+                    </a>
+                  ))}
+                </div>
               )}
 
               {/* Gallery — uniform square thumbnails */}

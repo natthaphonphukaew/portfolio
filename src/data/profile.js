@@ -58,11 +58,24 @@ export const profile = {
         'Function Decomposition',
         'n8n Workflow Automation',
         'Gemini AI Integration',
+        'Prompt Engineering',
+        'LLM Structured Output',
       ],
     },
     {
+      group: 'Data & Insight',
+      items: ['Data Analysis', 'Data Pipelines', 'Dashboard Design', 'Data Visualisation'],
+    },
+    {
       group: 'Tools & Project Management',
-      items: ['Git', 'GitHub', 'VS Code', 'ClickUp', 'Gantt & Milestone Planning'],
+      items: [
+        'Git',
+        'GitHub',
+        'GitHub Actions (CI Automation)',
+        'VS Code',
+        'ClickUp',
+        'Gantt & Milestone Planning',
+      ],
     },
   ],
 
