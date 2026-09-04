@@ -1,5 +1,5 @@
 // Single source of truth for all portfolio projects.
-// year: 1 → 2025 (first year), 2 → 2026 (second year)
+// year: 1 → 2025 · 2 → 2026 (2nd year) · 3 → 2026 (3rd year)
 
 export const works = [
   {
@@ -260,7 +260,7 @@ export const works = [
     slug: 'signal-radar',
     title: 'Signal Radar',
     subtitle: 'Personal Project · AI & Automation',
-    year: 2,
+    year: 3,
     yearLabel: '2026',
     type: 'Personal Project',
     role: 'Solo — Automation & AI',
