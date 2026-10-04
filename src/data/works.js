@@ -146,6 +146,9 @@ export const works = [
       'Thai voice → structured tasks via Gemini AI on LINE OA',
       'Planned scope, delegation and milestones in ClickUp (Gantt)',
     ],
+    links: [
+      { label: 'Presentation', url: 'https://www.canva.com/design/DAHCynq4geM/bDTh1QfFasXzCoWgdPDH6g/view' },
+    ],
     gallery: [
       { src: '/works/voice-to-task/cover.jpg', caption: 'AI processing & routing on n8n' },
       { src: '/works/voice-to-task/g1.jpg', caption: 'Workflow automation detail' },
@@ -208,7 +211,10 @@ export const works = [
       'Built both frontend and backend, and shipped it live',
       'End-to-end cosplay rental marketplace',
     ],
-    links: [{ label: 'Live Demo', url: 'https://cosaki-production.up.railway.app/' }],
+    links: [
+      { label: 'Live Demo', url: 'https://cosaki-production.up.railway.app/' },
+      { label: 'Pitch Deck', url: 'https://www.canva.com/design/DAHK16Hup3I/zLQ0m7pGat4Al5Jn5IPl3g/view' },
+    ],
     gallery: [
       { src: '/works/cosaki/cover.jpg', caption: 'Cosaki — the end-to-end cosplay rental platform' },
       { src: '/works/cosaki/g1.png', caption: 'App — home, filter & sort, product detail' },
@@ -244,6 +250,9 @@ export const works = [
       'Found the pattern causing 43.4% of losses from just 14.6% of cases',
       'Sized the opportunity: ~฿8.7B/year addressable; each 1% prevented ≈ ฿87M/year',
       'Designed to respect the rails: no added latency, no scheme change, bank decides',
+    ],
+    links: [
+      { label: 'Pitch Deck', url: 'https://www.canva.com/design/DAHWR3rH10E/XRMLiv-2X_dTig31if3XHQ/view' },
     ],
     gallery: [
       { src: '/works/nitmx/cover.jpg', caption: 'Trust Provenance — Detect, Brake, Bundle, Act' },
@@ -286,6 +295,8 @@ export const works = [
       { label: 'GitHub', url: 'https://github.com/natthaphonphukaew/signal-radar' },
     ],
     gallery: [
+      { src: '/works/signal-radar/g1.png', caption: 'The live dashboard — stat tiles, charts and filters' },
+      { src: '/works/signal-radar/g2.png', caption: 'Signal cards with the “so what” and real cited sources' },
       { src: '/works/signal-radar/cover.svg', caption: 'Signal Radar — automated trend intelligence for Thailand' },
     ],
   },
