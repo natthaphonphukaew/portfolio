@@ -1,0 +1,178 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" width="1600" height="1000" role="img" aria-label="CampusSpot — hex opportunity map around a university">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0d1512"/>
+      <stop offset="55%" stop-color="#0a0a0a"/>
+      <stop offset="100%" stop-color="#06120e"/>
+    </linearGradient>
+    <linearGradient id="em" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#34d399"/>
+      <stop offset="100%" stop-color="#10b981"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#10b981" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#10b981" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dots" width="34" height="34" patternUnits="userSpaceOnUse">
+      <circle cx="1.6" cy="1.6" r="1.6" fill="#10b981" opacity="0.14"/>
+    </pattern>
+    <path id="hex" d="M 34 0 L 17 29.5 L -17 29.5 L -34 0 L -17 -29.5 L 17 -29.5 Z"/>
+  </defs>
+
+  <rect width="1600" height="1000" fill="url(#bg)"/>
+  <rect width="1600" height="1000" fill="url(#dots)"/>
+  <circle cx="1150" cy="500" r="420" fill="url(#glow)"/>
+
+  <!-- H3 hex grid, shaded by opportunity score -->
+  <g transform="translate(1150,500)" stroke="#0a0a0a" stroke-width="2">
+    <use href="#hex" x="-357" y="-29.5" fill="#10b981" fill-opacity="0.1"/>
+    <use href="#hex" x="-357" y="29.5" fill="#10b981" fill-opacity="0.1"/>
+    <use href="#hex" x="-306" y="-118" fill="#10b981" fill-opacity="0.1"/>
+    <use href="#hex" x="-306" y="-59" fill="#10b981" fill-opacity="0.1"/>
+    <use href="#hex" x="-306" y="0" fill="#10b981" fill-opacity="0.22"/>
+    <use href="#hex" x="-306" y="59" fill="#34d399" fill-opacity="0.38"/>
+    <use href="#hex" x="-306" y="118" fill="#10b981" fill-opacity="0.22"/>
+    <use href="#hex" x="-255" y="-206.5" fill="#10b981" fill-opacity="0.1"/>
+    <use href="#hex" x="-255" y="-147.5" fill="#10b981" fill-opacity="0.1"/>
+    <use href="#hex" x="-255" y="-88.5" fill="#10b981" fill-opacity="0.22"/>
+    <use href="#hex" x="-255" y="-29.5" fill="#10b981" fill-opacity="0.22"/>
+    <use href="#hex" x="-255" y="29.5" fill="#34d399" fill-opacity="0.38"/>
+    <use href="#hex" x="-255" y="88.5" fill="#fbbf24" fill-opacity="0.5"/>
+    <use href="#hex" x="-255" y="147.5" fill="#34d399" fill-opacity="0.38"/>
+    <use href="#hex" x="-255" y="206.5" fill="#34d399" fill-opacity="0.38"/>
+    <use href="#hex" x="-204" y="-236" fill="#10b981" fill-opacity="0.1"/>
+    <use href="#hex" x="-204" y="-177" fill="#10b981" fill-opacity="0.1"/>
+    <use href="#hex" x="-204" y="-118" fill="#10b981" fill-opacity="0.22"/>
+    <use href="#hex" x="-204" y="-59" fill="#34d399" fill-opacity="0.38"/>
+    <use href="#hex" x="-204" y="0" fill="#34d399" fill-opacity="0.38"/>
+    <use href="#hex" x="-204" y="59" fill="#fbbf24" fill-opacity="0.5"/>
+    <use href="#hex" x="-204" y="118" fill="#f59e0b" fill-opacity="0.7"/>
+    <use href="#hex" x="-204" y="177" fill="#fbbf24" fill-opacity="0.5"/>
+    <use href="#hex" x="-204" y="236" fill="#34d399" fill-opacity="0.38"/>
+    <use href="#hex" x="-153" y="-265.5" fill="#10b981" fill-opacity="0.22"/>
+    <use href="#hex" x="-153" y="-206.5" fill="#10b981" fill-opacity="0.1"/>
+    <use href="#hex" x="-153" y="-147.5" fill="#10b981" fill-opacity="0.22"/>
+    <use href="#hex" x="-153" y="-88.5" fill="#34d399" fill-opacity="0.38"/>
+    <use href="#hex" x="-153" y="-29.5" fill="#fbbf24" fill-opacity="0.5"/>
+    <use href="#hex" x="-153" y="29.5" fill="#fbbf24" fill-opacity="0.5"/>
+    <use href="#hex" x="-153" y="88.5" fill="#f59e0b" fill-opacity="0.7"/>
+    <use href="#hex" x="-153" y="147.5" fill="#f59e0b" fill-opacity="0.7"/>
+    <use href="#hex" x="-153" y="206.5" fill="#f59e0b" fill-opacity="0.7"/>
+    <use href="#hex" x="-153" y="265.5" fill="#fbbf24" fill-opacity="0.5"/>
+    <use href="#hex" x="-102" y="-295" fill="#10b981" fill-opacity="0.1"/>
+    <use href="#hex" x="-102" y="-236" fill="#10b981" fill-opacity="0.22"/>
+    <use href="#hex" x="-102" y="-177" fill="#10b981" fill-opacity="0.22"/>
+    <use href="#hex" x="-102" y="-118" fill="#fbbf24" fill-opacity="0.5"/>
+    <use href="#hex" x="-102" y="-59" fill="#f59e0b" fill-opacity="0.7"/>
+    <use href="#hex" x="-102" y="0" fill="#f59e0b" fill-opacity="0.7"/>
+    <use href="#hex" x="-102" y="59" fill="#f59e0b" fill-opacity="0.7"/>
+    <use href="#hex" x="-102" y="118" fill="#f59e0b" fill-opacity="0.7"/>
+    <use href="#hex" x="-102" y="177" fill="#fbbf24" fill-opacity="0.5"/>
+    <use href="#hex" x="-102" y="236" fill="#fbbf24" fill-opacity="0.5"/>
+    <use href="#hex" x="-102" y="295" fill="#34d399" fill-opacity="0.38"/>
+    <use href="#hex" x="-51" y="-265.5" fill="#10b981" fill-opacity="0.1"/>
+    <use href="#hex" x="-51" y="-206.5" fill="#10b981" fill-opacity="0.22"/>
+    <use href="#hex" x="-51" y="-147.5" fill="#fbbf24" fill-opacity="0.5"/>
+    <use href="#hex" x="-51" y="-88.5" fill="#fb923c" fill-opacity="0.9"/>
+    <use href="#hex" x="-51" y="-29.5" fill="#fb923c" fill-opacity="0.9"/>
+    <use href="#hex" x="-51" y="29.5" fill="#fb923c" fill-opacity="0.9"/>
+    <use href="#hex" x="-51" y="88.5" fill="#f59e0b" fill-opacity="0.7"/>
+    <use href="#hex" x="-51" y="147.5" fill="#fbbf24" fill-opacity="0.5"/>
+    <use href="#hex" x="-51" y="206.5" fill="#fbbf24" fill-opacity="0.5"/>
+    <use href="#hex" x="-51" y="265.5" fill="#34d399" fill-opacity="0.38"/>
+    <use href="#hex" x="0" y="-295" fill="#10b981" fill-opacity="0.1"/>
+    <use href="#hex" x="0" y="-236" fill="#10b981" fill-opacity="0.22"/>
+    <use href="#hex" x="0" y="-177" fill="#34d399" fill-opacity="0.38"/>
+    <use href="#hex" x="0" y="-118" fill="#fb923c" fill-opacity="0.9"/>
+    <use href="#hex" x="0" y="-59" fill="#fb923c" fill-opacity="0.9"/>
+    <use href="#hex" x="0" y="0" fill="#fb923c" fill-opacity="0.9"/>
+    <use href="#hex" x="0" y="59" fill="#fb923c" fill-opacity="0.9"/>
+    <use href="#hex" x="0" y="118" fill="#fb923c" fill-opacity="0.9"/>
+    <use href="#hex" x="0" y="177" fill="#34d399" fill-opacity="0.38"/>
+    <use href="#hex" x="0" y="236" fill="#34d399" fill-opacity="0.38"/>
+    <use href="#hex" x="0" y="295" fill="#10b981" fill-opacity="0.1"/>
+    <use href="#hex" x="51" y="-265.5" fill="#10b981" fill-opacity="0.1"/>
+    <use href="#hex" x="51" y="-206.5" fill="#34d399" fill-opacity="0.38"/>
+    <use href="#hex" x="51" y="-147.5" fill="#fbbf24" fill-opacity="0.5"/>
+    <use href="#hex" x="51" y="-88.5" fill="#f59e0b" fill-opacity="0.7"/>
+    <use href="#hex" x="51" y="-29.5" fill="#fb923c" fill-opacity="0.9"/>
+    <use href="#hex" x="51" y="29.5" fill="#fb923c" fill-opacity="0.9"/>
+    <use href="#hex" x="51" y="88.5" fill="#f59e0b" fill-opacity="0.7"/>
+    <use href="#hex" x="51" y="147.5" fill="#fbbf24" fill-opacity="0.5"/>
+    <use href="#hex" x="51" y="206.5" fill="#10b981" fill-opacity="0.22"/>
+    <use href="#hex" x="51" y="265.5" fill="#10b981" fill-opacity="0.1"/>
+    <use href="#hex" x="102" y="-295" fill="#10b981" fill-opacity="0.22"/>
+    <use href="#hex" x="102" y="-236" fill="#10b981" fill-opacity="0.22"/>
+    <use href="#hex" x="102" y="-177" fill="#10b981" fill-opacity="0.22"/>
+    <use href="#hex" x="102" y="-118" fill="#fbbf24" fill-opacity="0.5"/>
+    <use href="#hex" x="102" y="-59" fill="#f59e0b" fill-opacity="0.7"/>
+    <use href="#hex" x="102" y="0" fill="#f59e0b" fill-opacity="0.7"/>
+    <use href="#hex" x="102" y="59" fill="#f59e0b" fill-opacity="0.7"/>
+    <use href="#hex" x="102" y="118" fill="#fbbf24" fill-opacity="0.5"/>
+    <use href="#hex" x="102" y="177" fill="#10b981" fill-opacity="0.22"/>
+    <use href="#hex" x="102" y="236" fill="#10b981" fill-opacity="0.22"/>
+    <use href="#hex" x="102" y="295" fill="#10b981" fill-opacity="0.1"/>
+    <use href="#hex" x="153" y="-265.5" fill="#10b981" fill-opacity="0.1"/>
+    <use href="#hex" x="153" y="-206.5" fill="#10b981" fill-opacity="0.22"/>
+    <use href="#hex" x="153" y="-147.5" fill="#34d399" fill-opacity="0.38"/>
+    <use href="#hex" x="153" y="-88.5" fill="#fbbf24" fill-opacity="0.5"/>
+    <use href="#hex" x="153" y="-29.5" fill="#fbbf24" fill-opacity="0.5"/>
+    <use href="#hex" x="153" y="29.5" fill="#fbbf24" fill-opacity="0.5"/>
+    <use href="#hex" x="153" y="88.5" fill="#34d399" fill-opacity="0.38"/>
+    <use href="#hex" x="153" y="147.5" fill="#10b981" fill-opacity="0.22"/>
+    <use href="#hex" x="153" y="206.5" fill="#10b981" fill-opacity="0.1"/>
+    <use href="#hex" x="153" y="265.5" fill="#10b981" fill-opacity="0.1"/>
+    <use href="#hex" x="204" y="-236" fill="#10b981" fill-opacity="0.1"/>
+    <use href="#hex" x="204" y="-177" fill="#10b981" fill-opacity="0.1"/>
+    <use href="#hex" x="204" y="-118" fill="#10b981" fill-opacity="0.22"/>
+    <use href="#hex" x="204" y="-59" fill="#34d399" fill-opacity="0.38"/>
+    <use href="#hex" x="204" y="0" fill="#10b981" fill-opacity="0.22"/>
+    <use href="#hex" x="204" y="59" fill="#34d399" fill-opacity="0.38"/>
+    <use href="#hex" x="204" y="118" fill="#10b981" fill-opacity="0.22"/>
+    <use href="#hex" x="204" y="177" fill="#10b981" fill-opacity="0.1"/>
+    <use href="#hex" x="204" y="236" fill="#10b981" fill-opacity="0.1"/>
+    <use href="#hex" x="255" y="-206.5" fill="#10b981" fill-opacity="0.1"/>
+    <use href="#hex" x="255" y="-147.5" fill="#10b981" fill-opacity="0.1"/>
+    <use href="#hex" x="255" y="-88.5" fill="#10b981" fill-opacity="0.1"/>
+    <use href="#hex" x="255" y="-29.5" fill="#10b981" fill-opacity="0.22"/>
+    <use href="#hex" x="255" y="29.5" fill="#10b981" fill-opacity="0.22"/>
+    <use href="#hex" x="255" y="88.5" fill="#10b981" fill-opacity="0.1"/>
+    <use href="#hex" x="255" y="147.5" fill="#10b981" fill-opacity="0.1"/>
+    <use href="#hex" x="255" y="206.5" fill="#10b981" fill-opacity="0.1"/>
+    <use href="#hex" x="306" y="-118" fill="#10b981" fill-opacity="0.1"/>
+    <use href="#hex" x="306" y="-59" fill="#10b981" fill-opacity="0.22"/>
+    <use href="#hex" x="306" y="0" fill="#10b981" fill-opacity="0.1"/>
+    <use href="#hex" x="306" y="59" fill="#10b981" fill-opacity="0.1"/>
+    <use href="#hex" x="306" y="118" fill="#10b981" fill-opacity="0.1"/>
+    <use href="#hex" x="357" y="-29.5" fill="#10b981" fill-opacity="0.1"/>
+    <use href="#hex" x="357" y="29.5" fill="#10b981" fill-opacity="0.1"/>
+  </g>
+
+  <!-- study radius + campus marker -->
+  <g transform="translate(1150,500)" fill="none">
+    <circle r="372" stroke="#34d399" stroke-opacity="0.3" stroke-width="3" stroke-dasharray="14 12"/>
+    <circle r="40" fill="#0a0a0a" stroke="#34d399" stroke-width="4"/>
+    <path d="M -17 8 L 0 -16 L 17 8 Z M -12 8 L -12 20 L 12 20 L 12 8" fill="#34d399" stroke="none"/>
+  </g>
+
+  <!-- Text -->
+  <g font-family="Inter, system-ui, sans-serif">
+    <text x="110" y="318" fill="#34d399" font-size="29" font-weight="700" letter-spacing="6">CAMPUS SITE-SELECTION ANALYTICS</text>
+    <text x="110" y="440" fill="#ffffff" font-size="112" font-weight="900" letter-spacing="-3">Campus</text>
+    <text x="110" y="560" fill="url(#em)" font-size="112" font-weight="900" letter-spacing="-3">Spot</text>
+    <text x="110" y="648" fill="#a1a1aa" font-size="33" font-weight="500">Which shop should open here — and is the area growing?</text>
+
+    <g font-size="23" font-weight="700">
+      <rect x="110" y="700" width="124" height="52" rx="26" fill="#10b981" fill-opacity="0.16"/>
+      <text x="172" y="733" fill="#10b981" text-anchor="middle">Cafés</text>
+      <rect x="250" y="700" width="112" height="52" rx="26" fill="#f59e0b" fill-opacity="0.16"/>
+      <text x="306" y="733" fill="#f59e0b" text-anchor="middle">Food</text>
+      <rect x="378" y="700" width="152" height="52" rx="26" fill="#3b82f6" fill-opacity="0.16"/>
+      <text x="454" y="733" fill="#3b82f6" text-anchor="middle">Laundry</text>
+      <rect x="546" y="700" width="188" height="52" rx="26" fill="#a855f7" fill-opacity="0.16"/>
+      <text x="640" y="733" fill="#a855f7" text-anchor="middle">Print shops</text>
+    </g>
+
+    <text x="110" y="844" fill="#52525b" font-size="25" font-weight="500">H3 grid · LightGBM + SHAP · 7 years of satellite imagery</text>
+  </g>
+</svg>

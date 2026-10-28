@@ -17,7 +17,7 @@ export const profile = {
   },
 
   // Shown on the hero portrait badge
-  current: { label: 'Currently', value: 'Business Analyst · NITMX Bootcamp' },
+  current: { label: 'Currently', value: 'Seeking Internship · BA / SA' },
 
   // Expanded & analysed from the body of work below
   about: [
@@ -48,7 +48,7 @@ export const profile = {
     },
     {
       group: 'Frontend',
-      items: ['React', 'Tailwind CSS', 'HTML', 'CSS', 'JavaScript'],
+      items: ['React', 'Next.js', 'TypeScript', 'Tailwind CSS', 'HTML', 'CSS', 'JavaScript'],
     },
     {
       group: 'Backend & Data',
@@ -63,11 +63,21 @@ export const profile = {
         'Gemini AI Integration',
         'Prompt Engineering',
         'LLM Structured Output',
+        'Realtime Voice AI (Gemini Live)',
       ],
     },
     {
       group: 'Data & Insight',
-      items: ['Data Analysis', 'Data Pipelines', 'Dashboard Design', 'Data Visualisation'],
+      items: [
+        'Data Analysis',
+        'Data Pipelines',
+        'Dashboard Design',
+        'Data Visualisation',
+        'Python (pandas, geopandas)',
+        'Geospatial Analysis (H3)',
+        'Machine Learning (LightGBM)',
+        'Model Explainability (SHAP)',
+      ],
     },
     {
       group: 'Tools & Project Management',

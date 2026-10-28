@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" width="1600" height="1000" role="img" aria-label="ScamCall — a simulated scam call being analysed for pressure tactics">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0d1512"/>
+      <stop offset="55%" stop-color="#0a0a0a"/>
+      <stop offset="100%" stop-color="#06120e"/>
+    </linearGradient>
+    <linearGradient id="em" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#34d399"/>
+      <stop offset="100%" stop-color="#10b981"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#f43f5e" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#f43f5e" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="screen" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1c1917"/>
+      <stop offset="100%" stop-color="#0c0a09"/>
+    </linearGradient>
+    <pattern id="dots" width="34" height="34" patternUnits="userSpaceOnUse">
+      <circle cx="1.6" cy="1.6" r="1.6" fill="#10b981" opacity="0.14"/>
+    </pattern>
+  </defs>
+
+  <rect width="1600" height="1000" fill="url(#bg)"/>
+  <rect width="1600" height="1000" fill="url(#dots)"/>
+  <circle cx="1210" cy="500" r="430" fill="url(#glow)"/>
+
+  <!-- Phone: the incoming-call screen -->
+  <g transform="translate(1010,130)">
+    <!-- ring pulses -->
+    <g fill="none" stroke="#f43f5e" transform="translate(200,250)">
+      <circle r="150" stroke-opacity="0.22" stroke-width="3"/>
+      <circle r="215" stroke-opacity="0.12" stroke-width="3"/>
+      <circle r="285" stroke-opacity="0.06" stroke-width="3"/>
+    </g>
+
+    <rect x="0" y="0" width="400" height="740" rx="52" fill="#18181b" stroke="#3f3f46" stroke-width="3"/>
+    <rect x="12" y="12" width="376" height="716" rx="42" fill="url(#screen)"/>
+    <rect x="160" y="30" width="80" height="11" rx="6" fill="#3f3f46"/>
+
+    <g font-family="Inter, system-ui, sans-serif" text-anchor="middle">
+      <text x="200" y="118" fill="#71717a" font-size="23" font-weight="600" letter-spacing="2">INCOMING CALL</text>
+
+      <!-- caller avatar -->
+      <circle cx="200" cy="222" r="68" fill="#f43f5e" fill-opacity="0.14" stroke="#f43f5e" stroke-opacity="0.5" stroke-width="3"/>
+      <path d="M 200 192 a 26 26 0 1 1 0.1 0 Z" fill="#f43f5e" fill-opacity="0.8"/>
+      <path d="M 158 268 a 42 34 0 0 1 84 0 Z" fill="#f43f5e" fill-opacity="0.8"/>
+
+      <text x="200" y="334" fill="#ffffff" font-size="34" font-weight="800">สภ.เมืองนนทบุรี</text>
+      <text x="200" y="376" fill="#a1a1aa" font-size="24" font-weight="500">Nonthaburi Police Station</text>
+
+      <!-- simulation badge -->
+      <rect x="92" y="412" width="216" height="46" rx="23" fill="#34d399" fill-opacity="0.14"/>
+      <text x="200" y="443" fill="#34d399" font-size="21" font-weight="700">SIMULATION ONLY</text>
+
+      <!-- pressure meter -->
+      <text x="200" y="520" fill="#71717a" font-size="20" font-weight="600" letter-spacing="2">PRESSURE LEVEL</text>
+      <g>
+        <rect x="56" y="540" width="288" height="14" rx="7" fill="#27272a"/>
+        <rect x="56" y="540" width="230" height="14" rx="7" fill="#f43f5e"/>
+      </g>
+      <text x="200" y="590" fill="#f43f5e" font-size="22" font-weight="800">8 / 10 — hang up now</text>
+
+      <!-- answer / decline -->
+      <circle cx="122" cy="664" r="44" fill="#f43f5e"/>
+      <path d="M 106 650 l 32 28 M 138 650 l -32 28" stroke="#ffffff" stroke-width="6" stroke-linecap="round"/>
+      <circle cx="278" cy="664" r="44" fill="#10b981"/>
+      <path d="M 262 648 q 4 22 32 32 l 6 -12 q -18 -8 -22 -26 Z" fill="#0a0a0a"/>
+    </g>
+  </g>
+
+  <!-- Text -->
+  <g font-family="Inter, system-ui, sans-serif">
+    <text x="110" y="300" fill="#34d399" font-size="29" font-weight="700" letter-spacing="6">SCAM-CALL TRAINING SIMULATOR</text>
+    <text x="110" y="422" fill="#ffffff" font-size="112" font-weight="900" letter-spacing="-3">Scam</text>
+    <text x="110" y="542" fill="url(#em)" font-size="112" font-weight="900" letter-spacing="-3">Call</text>
+    <text x="110" y="630" fill="#a1a1aa" font-size="33" font-weight="500">Get scammed safely — before it happens for real</text>
+
+    <!-- tactic taxonomy chips -->
+    <g font-size="23" font-weight="700">
+      <rect x="110" y="684" width="162" height="52" rx="26" fill="#f43f5e" fill-opacity="0.16"/>
+      <text x="191" y="717" fill="#f43f5e" text-anchor="middle">Authority</text>
+      <rect x="288" y="684" width="106" height="52" rx="26" fill="#f59e0b" fill-opacity="0.16"/>
+      <text x="341" y="717" fill="#f59e0b" text-anchor="middle">Fear</text>
+      <rect x="410" y="684" width="142" height="52" rx="26" fill="#a855f7" fill-opacity="0.16"/>
+      <text x="481" y="717" fill="#a855f7" text-anchor="middle">Urgency</text>
+      <rect x="110" y="752" width="152" height="52" rx="26" fill="#3b82f6" fill-opacity="0.16"/>
+      <text x="186" y="785" fill="#3b82f6" text-anchor="middle">Isolation</text>
+      <rect x="278" y="752" width="192" height="52" rx="26" fill="#ec4899" fill-opacity="0.16"/>
+      <text x="374" y="785" fill="#ec4899" text-anchor="middle">Money request</text>
+    </g>
+
+    <text x="110" y="890" fill="#52525b" font-size="25" font-weight="500">Gemini Live voice AI · Scam X-Ray · levels from 185 real AOC 1441 cases</text>
+  </g>
+</svg>
