@@ -278,7 +278,7 @@ export const works = [
     role: 'Solo — Automation & AI',
     team: 'Solo build',
     award: null,
-    cover: '/works/signal-radar/cover.svg',
+    cover: '/works/signal-radar/cover.png',
     tags: ['Gemini AI', 'Data Pipeline', 'GitHub Actions', 'Dashboard', 'Data Analysis', 'React'],
     description: [
       'Scanning the market by hand is slow and repetitive — exactly the kind of recurring workflow that should be automated. Signal Radar is an AI-enabled dashboard that surfaces strategic signals across Thailand’s economic, business, industry, consumer and social trends, and it runs entirely on its own.',
@@ -299,7 +299,7 @@ export const works = [
     gallery: [
       { src: '/works/signal-radar/g1.png', caption: 'The live dashboard — stat tiles, charts and filters' },
       { src: '/works/signal-radar/g2.png', caption: 'Signal cards with the “so what” and real cited sources' },
-      { src: '/works/signal-radar/cover.svg', caption: 'Signal Radar — automated trend intelligence for Thailand' },
+      { src: '/works/signal-radar/cover.png', caption: 'The live dashboard, refreshed by the pipeline every six hours' },
     ],
   },
 
@@ -313,7 +313,7 @@ export const works = [
     role: 'Solo — Product, Spec & Build',
     team: 'Solo build',
     award: null,
-    cover: '/works/scamcall/cover.svg',
+    cover: '/works/scamcall/cover.jpg',
     tags: ['Gemini Live API', 'Voice AI', 'Next.js', 'TypeScript', 'Behavioural Design', 'Fraud Prevention'],
     description: [
       'Students at my own university lost close to a million baht to call-centre gangs. Everybody already knows those gangs exist — but under real pressure (claimed authority, threats of arrest, a deadline, “don’t tell anyone, it’s a case secret”) people stop thinking clearly. A poster does not fix that. Experience does.',
@@ -336,7 +336,11 @@ export const works = [
       { label: 'GitHub', url: 'https://github.com/natthaphonphukaew/scamcall' },
     ],
     gallery: [
-      { src: '/works/scamcall/cover.svg', caption: 'ScamCall — a simulated pressure call, analysed line by line' },
+      { src: '/works/scamcall/cover.jpg', caption: 'The call comes in with a believable caller ID — and a badge saying this is a simulation' },
+      { src: '/works/scamcall/g1.png', caption: 'Six levels, each a documented fraud pattern, graded by difficulty' },
+      { src: '/works/scamcall/g2.png', caption: 'Chat levels: the AI opens with the real pitch, and block is always one tap away' },
+      { src: '/works/scamcall/g3.png', caption: 'Nothing starts until the safety terms are read and accepted' },
+      { src: '/works/scamcall/g4.png', caption: 'Hall of Bangmod — nicknames only, ranked by how fast players see through the call' },
     ],
   },
 
