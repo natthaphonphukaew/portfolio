@@ -9,7 +9,7 @@ export const profile = {
   photo: '/profile.jpg',
 
   education: {
-    degree: 'B.Sc. Digital Service Innovation',
+    degree: 'B.A. Digital Service Innovation',
     school: 'School of Information Technology (SIT)',
     university: 'King Mongkut’s University of Technology Thonburi (KMUTT)',
     year: '3rd year',
