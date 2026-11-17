@@ -393,7 +393,7 @@ export const works = [
     yearLabel: '2026',
     type: 'Coursework Project',
     role: 'Full-Stack Developer — App, DB & Map',
-    team: 'Team of 3',
+    team: 'Team of 2',
     award: null,
     cover: '/works/tangmod/cover.png',
     tags: ['RAG', 'LLM Evaluation', 'Next.js', 'PostgreSQL', 'Maps', 'Chatbot'],
@@ -403,7 +403,7 @@ export const works = [
       'Answers run through a chain of models with an eight-second timeout each, so a slow or failed provider falls through to the next instead of hanging. With no API key at all the app still runs in an offline mode that drops the AI phrasing but keeps the real data cards and map pins — which also makes it safe to demo on a bad connection.',
       'To know whether it actually works, a suite of 117 questions runs against the live chat endpoint and checks the answers, and a retrieval-only command shows which documents a question pulled without calling the model — so a bad answer can be traced to missing data or to a search that failed, rather than guessed at.',
       'Beyond chat there are two tools built on the same knowledge base: a major compass that asks about interests, study style and constraints then ranks all 59 undergraduate programmes across 8 faculties, and a student calendar for the academic year filtered by registration, payment, exams and holidays.',
-      'I own the application side — the app routes, components, database, authentication and the campus map — while my two teammates own the knowledge base and the retrieval and prompt layer, split by file in CONTRIBUTING.md so the three of us never collide in review.',
+      'I own the application side — the app routes, components, database, authentication and the campus map — while my teammate owns the knowledge base and the retrieval and prompt layer. CONTRIBUTING.md splits ownership file by file, so the two of us never collide in review.',
     ],
     highlights: [
       'Answers carry data cards and an official/unofficial source badge; location questions pin the building on the campus map',
@@ -411,7 +411,7 @@ export const works = [
       '117-question evaluation suite run against the live endpoint, with a retrieval-only mode to separate missing data from failed search',
       'Major compass ranking 59 undergraduate programmes across 8 faculties',
       'Student calendar filtered by registration, payment, exams and holidays',
-      'My part: app, components, database, auth and map — file ownership split with two teammates in CONTRIBUTING.md',
+      'My part: app, components, database, auth and map — file ownership split with my teammate in CONTRIBUTING.md',
     ],
     links: [
       { label: 'Live Demo', url: 'https://tangmod.vercel.app' },
